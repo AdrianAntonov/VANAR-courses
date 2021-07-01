@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#map {
+    /* width: 500px;
+    height: 500px; */
+    border: 5px solid #555;
+}
+.invader {
+    width: 70px;
+    height: 65px;
+    background-color: brown;
+    background-image: url(sprite.png);
+    position: absolute;
+    /* background-position: -500px -480px; */
+}
+
+
+.player {
+    /* width: 120px;
+    height: 120px; */
+    /* width: 108px;
+    height: 71px; */
+    background-color: brown;
+    background-image: url(sprite.png);
+    position: absolute;
+    background-position: -500px -480px;
+}
+
+
+.rocket {
+    width: 36px;
+    height: 41px;
+    /* width: 108px;
+    height: 67px; */
+    background-color: brown;
+    background-image: url(sprite.png);
+    position: absolute;
+    /* background-position: -500px -480px; */
+}
+
+.score {
+    width: 120px;
+    height: 50px;
+    padding: 5px;
+    background-color: #fff;
+    color: teal;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+.overAll {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+    background-color: red;
+    text-transform: uppercase;
+    font-size: 150px;
+    font-weight: 400;
+    /* top: 36%;
+    left: 20%; */
+    align-items: center;
+    justify-content: center;
+
+}
