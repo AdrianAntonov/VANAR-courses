@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #message-list {
+            background-color: #bbb;
+            width: 300px;
+            height: 80vh;
+            font-size: 25px;
+            text-align: right;
+        }
+        #message-input, button {
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body onload="loadMessages()">
+    <div id="message-list"></div>
+    <div>
+        <input type="text" id="message-input">
+        <button onclick="sendMessage()">SEND</button>
+        <button onclick="del()">CLEAR</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
